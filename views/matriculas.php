@@ -1,6 +1,6 @@
 <h2>Matrículas</h2>
     <a href="?page=matricular_aluno">Matricular Aluno</a>
-    <table>
+    <table class="table">
         <tr>
             <th>Aluno</th>
             <th>Curso</th>

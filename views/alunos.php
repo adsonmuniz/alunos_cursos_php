@@ -1,6 +1,6 @@
 <h2>Alunos</h2>
     <a href="?page=inserir_aluno">Inserir Aluno</a>
-    <table>
+    <table class="table">
         <tr>
             <th>Aluno</th>
             <th>Nascimento</th>

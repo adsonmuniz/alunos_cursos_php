@@ -20,7 +20,6 @@ footer{
     border-radius: 0.5em; 
     margin: 5px; 
     text-align: center;
-    padding-top: 10px;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -45,7 +44,7 @@ footer{
 }
 
 #menu a:hover{
-    background-color: darksalmon;
+    background-color: cornflowerblue;
     border-radius: 1em;
     padding: 10px;
 }
@@ -59,10 +58,7 @@ footer{
     background-color: lightcyan;
 }
 
-table *{
-    border: sienna 1px solid;
-    padding: 3px;
-}
+
 
 #content a {
     background-color: lightseagreen;
@@ -72,6 +68,14 @@ table *{
 }
 
 #content a:hover {
-    background-color: mediumpurple;
+    background-color: cornflowerblue;
     color: lightseagreen;
+}
+
+.carousel-item img{
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    margin: auto; 
+    display: block;
 }

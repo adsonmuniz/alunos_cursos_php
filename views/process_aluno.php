@@ -2,7 +2,7 @@
 
 include '../db.php';
 
-$aluno = $_POST['nome'];
+$aluno = $_POST['nomeAluno'];
 $nascimento = $_POST['nascimento'];
 
 $query = "INSERT INTO alunos (nome, data_nascimento) VALUES ('$aluno','$nascimento')";

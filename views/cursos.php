@@ -1,6 +1,6 @@
     <h2>Cursos</h2>
     <a href="?page=inserir_curso">Inserir Curso</a>
-    <table>
+    <table class="table">
         <tr>
             <th>Curso</th>
             <th>Carga Horária</th>
@@ -11,12 +11,11 @@
                 echo '<tr><td>'.$linha['nome'].'</td><td>'.$linha['carga_horaria'].'</td>';
                 ?>
                    <td>
-                       <a href="?page=editar_curso&id=<?php echo($linha['id']); ?>">Editar</a>
+                       <a href="?page=inserir_curso&editar=<?php echo($linha['id']); ?>">Editar</a>
                        <a href="?page=deletar_curso&id=<?php echo($linha['id']); ?>">Deletar</a>
                     </td>
                 </tr>
                 <?php
             }
         ?>
-
     </table>
