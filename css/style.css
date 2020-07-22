@@ -7,7 +7,11 @@ body{
     color: #333;
 }
 
- header{ 
+h1 {
+    text-align: center;
+}
+
+header{ 
     height: 80px; 
     background-color: rgb(108, 206, 173); 
     border-radius: 0.5em; 
@@ -28,6 +32,12 @@ footer{
 #logo{
     margin-top: 10px;
     margin-left: 20px;
+}
+
+#login {
+    top: 10px;
+    right: 40px;
+    position: absolute;
 }
 
 #menu{
@@ -58,18 +68,24 @@ footer{
     background-color: lightcyan;
 }
 
-
-
 #content a {
-    background-color: lightseagreen;
-    color: lightcyan;
+    color: #333;
     text-decoration: none;
     padding: 3px;
+    margin-right: 10px;
 }
 
 #content a:hover {
     background-color: cornflowerblue;
-    color: lightseagreen;
+}
+
+#content .btn-insert {
+    background-color: darkturquoise;
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 0.5em;
 }
 
 .carousel-item img{
@@ -78,4 +94,22 @@ footer{
     max-height: 400px;
     margin: auto; 
     display: block;
+}
+
+#content .fas {
+    font-size: 15px;
+}
+
+#dvHeader .fab {
+    font-size: 80px;
+}
+
+#content .btn{
+    margin-top: 20px;
+    background-color: darkcyan;
+}
+
+#content .btn:hover{
+    margin-top: 20px;
+    background-color: cornflowerblue;
 }
