@@ -11,3 +11,4 @@ Necessário instalar os programas:
 4) Fazer o download do ZIP do projeto em "https://github.com/adsonmuniz/alunos_cursos_php". Na pasta "../xampp/htdocs/" colar o conteúdo do download, renomeando a pasta de "alunos_cursos_php-master" para "alunos_cursos_php".
 5) No terminal do navegador, digitar e abrir o caminho "localhost/phpMyAdmin", inserir o usuário root e Executar. No menu superior, clicar na guiar SQL, copiar e colar o conteúdo do arquivo "../alunos_cursos_php/scripts/scripts_create.sql" do projeto. Por fim, execute o código SQL.
 6) Pronto, agora no navegador digite "localhost/alunos_cursos_php".
+7) Para acessar o sistema use o login 'admin' e senha '12345'.
